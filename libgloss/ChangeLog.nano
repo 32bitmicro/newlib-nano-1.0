@@ -1,0 +1,40 @@
+2012-01-18  Bin Cheng <bin.cheng@arm.com>
+
+	Backport from newlib mainline
+	2012-01-17  Bin Cheng  <bin.cheng@arm.com>
+
+	* arm/linux-crt0.c: Use ldr instead of adr to get address of
+	_start_thumb.
+
+
+2011-09-29  Bin Cheng <bin.cheng@arm.com>
+
+	Backport from newlib mainline
+	2011-09-29  Bin Cheng  <bin.cheng@arm.com>
+
+	* arm/arm.h (HAVE_CALL_INDIRECT): Define.
+	* arm/crt0.S (indirect_call): New macro.  Encodes indirect
+	function calls.  Does not use blx for pre-armv5 targets.
+
+
+2011-09-22  Bin Cheng <bin.cheng@arm.com>
+
+	Backport from newlib mainline
+	2011-07-13  Bin Cheng <bin.cheng@arm.com>
+
+	* arm/crt0.S: Support armv6-m processors in libgloss.
+	* arm/swi.h: Likewise.
+	* arm/trap.S: Likewise.
+	* arm/redboot-crt0.S: Likewise.
+	* arm/linux-crt0.c: Likewise.
+	* arm/arm.h: New.
+
+
+2011-08-18 Terry Guo <terry.guo@arm.com>
+
+	Backport from newlib mainline
+	2011-06-29  Jeff Johnston  <jjohnstn@redhat.com>
+
+	* arm/Makefile.in: Add $CFLAGS to compile commands for specified
+	.o targets.
+
