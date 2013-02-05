@@ -11,7 +11,7 @@ newlib-nano is a derivative of the well known [newlib C library for embedded sys
 
  This project goal is to enhance newlib-nano with additional features and extend support to additional MCU families.
  
- For ready to use downloads see the [32bitmicro web site](32bitmicro.com).
+ For ready to use downloads see the [32bitmicro web site](http://32bitmicro.com).
 
 
 
